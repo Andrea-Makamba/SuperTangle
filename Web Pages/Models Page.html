@@ -219,7 +219,6 @@
 		top: 969.5px;
 		transform: matrix(1,0,0,1,0,0);
 	}
-	/*
 	#Slider_1 {
 	object-position: 80.5px;	
 	}
@@ -232,7 +231,7 @@
 		left: 80.5px;
 		top: 969.5px;	
 	}
-	*/
+	
 	#Line_5 {
 		fill: transparent;
 		stroke: rgba(112,112,112,1);
@@ -4171,14 +4170,13 @@ window.application = new Application();
 		</path>
 	</svg>
 
-<!-- Initialise slider item 
 	<html>
 		<style>
 	.rangeslider{
     width: 50%;
 }
   
-/*			
+		
 .myslider {
     -webkit-appearance: none;
     background: #707070  ;
@@ -4198,14 +4196,12 @@ window.application = new Application();
  
 .myslider:hover {
     opacity: 1;
-}
-			
-*/  
+}			
 		</style>
 		
 
-<div class="rangeslider">
-  <input type="range" min="1" max="10" valuse="6"
+<div class="rangeslider" style="vertical-align:middle;margin:940px 80.5px">
+  <input type="range" min="1" max="14" value="6"
                   class="myslider" id="sliderRange">
   <p><span id="Slider_1"></span></p>
 		</div>
@@ -4220,8 +4216,6 @@ rangeslider.oninput = function() {
 }
 </script>
 		</html>
-	*/ 
--->
 	
 	<svg class="Rectangle_4">
 		<rect id="Rectangle_4" rx="10" ry="10" x="0" y="0" width="468" height="59">
